@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "VERIFY USER CAN NOT LOGIN WITH INVALID CARD- NAGATIVE",
+        "description": "",
+        "id": "search-functionality;verify-user-can-not-login-with-invalid-card--nagative",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40989533501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "OPEN FB URL",
+            "match": {
+              "location": "Stepdeppp.open_FB_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2247304400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "ENTER INVlid USER AND PASSWORD",
+            "match": {
+              "location": "Stepdeppp.enter_INVlid_USER_AND_PASSWORD()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1133131900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "CLICK ON LOGIN",
+            "match": {
+              "location": "Stepdeppp.click_ON_LOGIN()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7708458000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "VERIFY USER SHOULD NOT LOGIN",
+            "match": {
+              "location": "Stepdeppp.verify_USER_SHOULD_NOT_LOGIN()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "search.feature"
+  }
+]
